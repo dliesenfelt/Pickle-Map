@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    height: 25px;
+}
+
+header {
+    border-bottom: 5px solid green;
+}
+
+footer {
+    display: flex;
+    border-top: 5px solid green;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    background-color: rgb(190, 221, 140);
+}
+
+h3 {
+    margin-bottom: 7px;
+}
+
+#map {
+    height: 80vh;
+}
